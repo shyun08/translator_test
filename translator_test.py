@@ -50,7 +50,15 @@ source_lang = st.sidebar.selectbox(
 
 )
 
-target_lang = st.sㅛ")
+target_lang = st.sidebar.selectbox(
+
+    "번역 언어",
+
+    list(LANGUAGES.keys())
+
+)
+
+st.sidebar.write("made by shy")
 
 col1, col2 = st.columns(2)
 
@@ -127,5 +135,3 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
-
-
