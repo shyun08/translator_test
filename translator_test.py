@@ -50,15 +50,7 @@ source_lang = st.sidebar.selectbox(
 
 )
 
-target_lang = st.sidebar.selectbox(
-
-    "번역 언어",
-
-    list(LANGUAGES.keys())
-
-)
-
-st.sidebar.write("made by ✍️KMS™️")
+target_lang = st.sㅛ")
 
 col1, col2 = st.columns(2)
 
